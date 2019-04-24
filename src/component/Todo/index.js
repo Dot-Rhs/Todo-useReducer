@@ -36,7 +36,7 @@ function Todo() {
       Todo List:
       <div>
         {state.todo.map(anythingbutindex => (
-          <div>{anythingbutindex.title}</div>
+          <div className={CSS.false}>•{anythingbutindex.title}</div>
         ))}
         <input
           value={state.input}
